@@ -52,4 +52,16 @@ button{
     margin:1vmin;
     height:40%;
     padding:1vmin;
+    border-right:3px solid #ef7c8e;
+    border-bottom:3px solid #ef7c8e;
+    border-radius:25%;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+button:active{
+    border-right:0;
+    border-bottom:0;
 }
