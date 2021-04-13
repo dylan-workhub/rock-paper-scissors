@@ -29,10 +29,12 @@ function oneRound() {
         resultArea.textContent = 'Please hit "Reset?" if you want to play again.';
         return;
     }
+
     let playerSelection = this.id;
     playerSelection = playerSelection.toUpperCase();
     let computerSelection = computerPlay();
     computerSelection = computerSelection.toUpperCase();
+    
     if(playerSelection === computerSelection){
         resultArea.textContent = 'It\'s a tie!';
     }
